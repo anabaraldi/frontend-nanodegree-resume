@@ -1,0 +1,6 @@
+var name = "cAmEROn PittMAN";
+var newName = name.split(" ");
+var first = newName[0].toLowerCase();
+	first = first[0].toUpperCase() + first.slice(1);
+var second = newName[1].toUpperCase();
+	newName = first + " " + second;

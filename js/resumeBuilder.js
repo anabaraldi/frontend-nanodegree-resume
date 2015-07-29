@@ -6,3 +6,4 @@ var formattedRole = HTMLheaderRole.replace("%data%", role);
 
 $("#header").prepend(formattedName);
 $("#header").append(formattedRole);
+
